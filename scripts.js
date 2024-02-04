@@ -23,25 +23,26 @@ console.log("shipping");
 
 let shoes = 300 * 1;
 let toys = 100 * 5;
-let shirts = 150 * 6;
+let shirts = 150 * NONE_SELECTED;
 let batteries = 35 * 2;
-let pens = 5 * 0;
+let pens = 5 * NONE_SELECTED;
 console.log(shoes + toys); //test
-let calcShipping = Number
 
 
-/*if (shoes + batteries + pens + shirts > 1000 && currency === '$'){ shipping = 0 || calcShipping};
+let calcShipping = null;
+ if (shoes + batteries + pens + shirts > 1000 && currency === 'R'){ shipping = 0 || calcShipping};
 	if (locationB = 'NAM' && customers < 2) {shipping = 0 || calcShipping};
 			if (locationA = 'RSA')
-		    {shipping = 0 || calcShipping};*/
+		    {shipping = 0 || calcShipping};
+console.log(calcShipping)
 
-
-if ((shipping = 0 && customers !== 1)) {
-  console.log(FREE_WARNING)};
+shipping = 0;
+if ((shipping === 0 && customers !== 1)) 
+  {console.log(FREE_WARNING)}
 
 let locationC = "NK";
 if ((locationC === "NK")) 
 {console.warn(BANNED_WARNING)}
 
 currency = 'R';
-{console.log('price',':',currency,shoes + batteries + pens + shirts)};
+{console.log('price',':',currency,shoes + batteries + pens + shirts + shipping)};
